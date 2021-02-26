@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Header from "./components/Header.js";
 import Accordion from "./components/Accordion.js";
 import Search from "./components/Search.js";
 import Dropdown from "./components/Dropdown.js";
@@ -40,6 +41,7 @@ const App = () => {
 
   return (
     <div className="ui container" style={{ marginTop: "25px" }}>
+      <Header />
       <Route path="/">
         <Accordion items={items} />
       </Route>

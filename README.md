@@ -16,5 +16,8 @@ The purpose of this project was to get personal, hands-on reinforcement of my kn
 - Throttling API requests
 - Event Bubbling
 - Debouncing
+- Binding event handlers
+- Filtering lists
+- Hiding and showing lists
 
 See the live collection of widgets <a href="https://tcs-react-widget-collection.netlify.app/" target="_blank" >here</a>.

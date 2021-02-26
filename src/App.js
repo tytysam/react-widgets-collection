@@ -42,6 +42,7 @@ const App = () => {
       {/* <Accordion items={items} /> */}
       {/* <Search /> */}
       {/* <Dropdown
+        label="Select a Color"
         options={options}
         selected={selected}
         onSelectedChange={setSelected}

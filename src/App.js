@@ -1,6 +1,7 @@
 import React from "react";
 import Accordion from "./components/Accordion.js";
 import Search from "./components/Search.js";
+import Dropdown from "./components/Dropdown.js";
 
 const items = [
   {
@@ -21,7 +22,8 @@ const App = () => {
   return (
     <div>
       {/* <Accordion items={items} /> */}
-      <Search />
+      {/* <Search /> */}
+      <Dropdown />
     </div>
   );
 };

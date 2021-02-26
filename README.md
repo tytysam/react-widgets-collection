@@ -5,16 +5,17 @@ This app is really just a container for a few different widgets I built, includi
 - An Accordion-style component for displaying (specifically, hiding/showing) content
 - A Wikipedia-powered Search app
 - A custom dropdown-style component
-- A Google-translate-powered translator app
+- A Google Translate API-powered translator app
 
 The purpose of this project was to get personal, hands-on reinforcement of my knowledge of the following topics:
 
 - Hooks in React! (specifically: useState, useEffect, useRef)
 - Dynamically toggling classes using state
 - Async code in useEffect
-- XSS attacks in React
+- dangerouslySetInnerHTML + XSS attacks in React
 - Throttling API requests
 - Event Bubbling
 - Debouncing
+-
 
 See the live collection of widgets <a href="https://tcs-react-widget-collection.netlify.app/" target="_blank" >here</a>.

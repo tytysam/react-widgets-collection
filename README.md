@@ -16,6 +16,5 @@ The purpose of this project was to get personal, hands-on reinforcement of my kn
 - Throttling API requests
 - Event Bubbling
 - Debouncing
--
 
 See the live collection of widgets <a href="https://tcs-react-widget-collection.netlify.app/" target="_blank" >here</a>.

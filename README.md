@@ -18,7 +18,7 @@ The purpose of this project was to get personal, hands-on reinforcement of my kn
 - Debouncing
 - Binding event handlers
 - Filtering lists
-- Hiding and showing lists
+- Hiding and showing lists (dynamic rendering using classes)
 - Building navigation without React-Router
 
 See the live collection of widgets <a href="https://tcs-react-widget-collection.netlify.app/" target="_blank" >here</a>.

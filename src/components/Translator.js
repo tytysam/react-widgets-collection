@@ -87,6 +87,11 @@ const Translator = () => {
 
   return (
     <div>
+      <div className="ui header">
+        <h1 style={{ marginBottom: "50px", fontWeight: 100 }}>
+          Google Translate API-powered Translator
+        </h1>
+      </div>
       <div className="ui form">
         <div className="field">
           <label>Enter Text</label>

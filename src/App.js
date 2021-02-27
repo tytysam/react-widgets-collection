@@ -66,12 +66,25 @@ const App = () => {
         <Search />
       </Route>
       <Route path="/dropdown">
+        <div className="ui header">
+          <h1 style={{ marginBottom: "50px", fontWeight: 100 }}>
+            Dropdown Component built with useState and useRef
+          </h1>
+        </div>
         <Dropdown
           label="Select a Color"
           options={options}
           selected={selected}
           onSelectedChange={setSelected}
         />
+        <div
+          className="ui content"
+          style={{ marginTop: "25px", textAlign: "center" }}
+        >
+          <h2 style={{ color: selected.value }}>
+            Select a new color from the dropdown!
+          </h2>
+        </div>
       </Route>
       <Route path="/translator">
         <Translator />

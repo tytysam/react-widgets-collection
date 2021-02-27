@@ -23,7 +23,16 @@ const Accordion = ({ items }) => {
     );
   });
 
-  return <div className="ui styled accordion">{renderedItems}</div>;
+  return (
+    <>
+      <div className="ui header">
+        <h1 style={{ marginBottom: "50px", fontWeight: 100 }}>
+          Accordion Component built with useState
+        </h1>
+      </div>
+      <div className="ui styled accordion">{renderedItems}</div>
+    </>
+  );
 };
 
 export default Accordion;

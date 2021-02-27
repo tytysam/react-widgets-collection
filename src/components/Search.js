@@ -64,6 +64,11 @@ const Search = () => {
 
   return (
     <div>
+      <div className="ui header">
+        <h1 style={{ marginBottom: "50px", fontWeight: 100 }}>
+          Wikipedia API-powered Search
+        </h1>
+      </div>
       <div className="ui form">
         <div className="field">
           <label>Enter Search Term</label>

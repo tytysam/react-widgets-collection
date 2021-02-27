@@ -2,7 +2,7 @@
 
 This app is really just a container for a few different widgets I built, including:
 
-- An Accordion-style component for displaying (specifically, hiding/showing) content
+- An Accordion-style component for displaying content (specifically, hiding/showing)
 - A Wikipedia-powered Search app
 - A custom dropdown-style component
 - A Google Translate API-powered translator app

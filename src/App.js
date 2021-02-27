@@ -27,12 +27,29 @@ const options = [
     value: "red",
   },
   {
+    label: "The Color Orange",
+    value: "orange",
+  },
+  {
+    label: "The Color Yellow",
+    value: "yellow",
+  },
+  {
     label: "The Color Green",
     value: "green",
   },
   {
     label: "The Color Blue",
     value: "blue",
+  },
+
+  {
+    label: "The Color Indigo",
+    value: "indigo",
+  },
+  {
+    label: "The Color Violet",
+    value: "violet",
   },
 ];
 

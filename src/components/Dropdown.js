@@ -54,6 +54,11 @@ const Dropdown = ({ label, options, selected, onSelectedChange }) => {
           </div>
         </div>
       </div>
+      <div className="ui content">
+        <h2 style={{ color: selected.value }}>
+          Select a new color from the dropdown!
+        </h2>
+      </div>
     </div>
   );
 };
